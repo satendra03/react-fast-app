@@ -10,7 +10,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          by @satendra_03
+          by @satendra03
         </a>
       </code>
     </div>
