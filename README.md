@@ -1,51 +1,24 @@
-# React Fast App 🚀
+# React Fast App Templates
 
-A blazing fast way to start a React project pre-configured with **Vite**, **Tailwind CSS**, and **ShadCN UI** — all in one command.
+This repository contains the base templates used by the [`react-fast-app`](https://www.npmjs.com/package/create-react-fast-app) CLI.
 
----
-## 🛠️ Usage
+Each folder inside this repo represents a different React project setup. These templates are used when generating a new app using the CLI.
+
+## Folder Structure
+
+- `tailwind-shadcn-js/`: React + Tailwind CSS + shadcn/ui (JavaScript)
+- `tailwind-shadcn-ts/`: React + Tailwind CSS + shadcn/ui (TypeScript)
+
+## Usage
+
+You should **not use these folders directly**. Instead, use the CLI:
 
 ```bash
 npm create react-fast-app
 ```
----
+The CLI will guide you through choosing your preferred setup, and it will use the corresponding template from this repository.
 
-## 🚀 What is this?
-
-This CLI helps you bootstrap a new React project with modern UI library - ShadCN, so you don’t need to install Tailwind and ShadCN UI manually every time.
-
-## 📦 Features
-
-- ⚡ Vite + React setup
-- 🎨 Tailwind CSS configured
-- 💎 ShadCN UI ready to use
-- 🌏 Auto localhost
-- 📂 Folder Structure
-
----
-
-## 📂 Folder Structure
-```
-├───public
-└───src
-    ├───assets
-    ├───components
-    ├───hooks
-    ├───layouts
-    ├───lib
-    └───pages
-```
----
-
-Follow the prompts to choose your configuration and you're ready to go!
-
-## 🧪 What's inside?
-
-- `Tailwind CSS`
-- `ShadCN UI` components and themes
----
-
-### Ways to Contact Us:
+## Ways to Contact Us:
 
 1. **GitHub Issues**: You can open an issue directly on this repository for bugs, feature requests, or general inquiries.
    - [Open an Issue](https://github.com/satendra03/react-fast-app/issues)
